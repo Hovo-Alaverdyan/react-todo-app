@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(134, 188, 68);
+}
+
+.Header {
+  position: fixed;
+  font-size: 3rem;
+  width: 25rem;
+  padding-top: .9rem;
+  background: rgb(134, 188, 68);
+}
+
+.App {
+  width: 25rem;
+  padding-top: 6rem;
+
+}
+
+.Todos .Todo {
+  background-color: rgba(3, 253, 103, 0.874);
+  margin: .5rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+}
+
+.Todos .Todo input[type=checkbox] {
+  width: 1rem;
+  height: 1rem;
+}
+
+.Todos .Todo button {
+  width: 1rem;
+  height: 1rem;
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Todos .Todo .title.done {
+  text-decoration: line-through;
+}
+
+.AddTodo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+}
+
+.AddTodo input[type=text] {
+  flex: 2;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+
+.AddTodo input[type=submit] {
+  flex: 1;
+  font-weight: bold;
+  padding: .5rem;
+  border-radius: .5rem;
+  background: red;
+  cursor: pointer;
+}
