@@ -1,4 +1,4 @@
-# React Todo App :spiral_note_pad:
+# React Todo App 
 
 Welcome to the React Todo App! This application allows you to efficiently manage your tasks by adding new tasks, marking completed tasks, and deleting tasks as needed.
 
